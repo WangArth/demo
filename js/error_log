@@ -1,0 +1,61 @@
+[04-Jun-2021 10:08:49 America/Mexico_City] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home4/cliented/public_html/zonabigotes/js/database.php on line 26
+[10-Jun-2021 08:13:56 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/cliented/public_html/zonabigotes/js/database.php on line 57
+[10-Jun-2021 08:14:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/cliented/public_html/zonabigotes/js/database.php on line 57
+[10-Jun-2021 08:14:27 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:14:27 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:14:27 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:14:27 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:15:30 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:15:30 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:15:30 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:15:30 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:16:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:16:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:16:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:16:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:17:36 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:17:36 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:17:36 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:17:36 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:18:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:18:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:18:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:18:07 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 54
+[10-Jun-2021 08:21:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home4/cliented/public_html/zonabigotes/js/database.php on line 61
+[10-Jun-2021 08:22:13 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 61
+[10-Jun-2021 08:22:13 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 61
+[10-Jun-2021 08:22:13 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 61
+[10-Jun-2021 08:22:13 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home4/cliented/public_html/zonabigotes/js/database.php on line 61
+[10-Jun-2021 08:22:55 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home4/cliented/public_html/zonabigotes/js/database.php on line 64
+[10-Jun-2021 08:24:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home4/cliented/public_html/zonabigotes/js/database.php on line 64
+[10-Jun-2021 08:53:27 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in /home4/cliented/public_html/zonabigotes/js/database.php on line 49
+[17-Jun-2021 11:12:21 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 71
+[17-Jun-2021 11:12:21 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 82
+[17-Jun-2021 11:12:21 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 83
+[17-Jun-2021 11:13:29 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[17-Jun-2021 11:14:53 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[17-Jun-2021 19:22:14 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[18-Jun-2021 16:14:39 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[18-Jun-2021 17:05:34 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[30-Jun-2021 11:36:58 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[30-Jun-2021 13:58:53 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[30-Jun-2021 22:28:39 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[01-Jul-2021 17:37:57 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[02-Jul-2021 15:48:57 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[05-Jul-2021 11:15:30 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[05-Jul-2021 13:10:07 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[05-Jul-2021 21:37:08 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 71
+[05-Jul-2021 21:37:08 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 82
+[05-Jul-2021 21:37:08 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 83
+[07-Jul-2021 12:00:54 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[07-Jul-2021 19:36:22 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[09-Jul-2021 15:50:11 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[09-Jul-2021 18:54:32 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[15-Jul-2021 11:16:58 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127
+[21-Jul-2021 16:13:04 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 71
+[21-Jul-2021 16:13:04 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 82
+[21-Jul-2021 16:13:04 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 83
+[21-Jul-2021 16:13:04 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 71
+[21-Jul-2021 16:13:04 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 82
+[21-Jul-2021 16:13:04 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 83
+[22-Jul-2021 18:08:19 America/Mexico_City] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/cliented/public_html/zonabigotes/js/database.php on line 127

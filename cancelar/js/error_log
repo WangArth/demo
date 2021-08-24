@@ -1,0 +1,57 @@
+[14-Apr-2021 09:34:10 America/Mexico_City] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home4/cliented/public_html/dabu/cancelar/js/database.php on line 26
+[14-Apr-2021 09:34:12 America/Mexico_City] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home4/cliented/public_html/dabu/cancelar/js/database.php on line 26
+[10-Jun-2021 09:08:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 140
+[10-Jun-2021 09:09:18 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 140
+[08-Jul-2021 13:14:23 America/Mexico_City] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 13:16:49 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 13:16:55 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 13:17:10 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 13:17:32 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 13:21:12 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 22
+[08-Jul-2021 13:23:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 22
+[08-Jul-2021 13:24:19 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 23
+[08-Jul-2021 13:24:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 23
+[08-Jul-2021 13:32:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 23
+[08-Jul-2021 14:23:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 14:27:57 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 14:28:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24
+[08-Jul-2021 15:08:38 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/cliented/public_html/zonabigotes/cancelar/js/database.php on line 24

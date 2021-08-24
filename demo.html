@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zona Bigotes</title>
+	<link rel="shortcut icon" href="images/icono.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+	<!-- Formulario de agenda-->
+
+		<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/fondo.jpeg);">
+			<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex justify-content-end">
+    			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate heading-section heading-section-white">
+            <img src="images/Demo.png" width="70" height="70" alt="logo" style="border-radius: 50px;" class="imgLogo"/> 
+					<span class="subheading">Cliente Digital | Demo</span>
+					<h2 class="mb-4">Completa los campos para agendar</h2>
+					
+
+    				<form name="form1" action=""  class="appointment">
+    					<div class="row">
+                            
+                   <!--Personal-->
+				
+						<div class="col-md-12">
+								<div class="form-group">
+								<div class="form-field">
+							  <div class="select-wrap">
+					  <div class="icon"><span class="fa fa-chevron-down"></span></div>
+				    	  <select name="select" id="personal" class="form-control" onchange="cambia()">
+						  <option value="Personal">Barberos</option>
+						  <option value="Est1_Uno">Barbero 1</option>
+						  <option value="Est2_Dos"> Barbero 2 </option>
+						  <option value="Est3_Tres">Barbero 3 </option>
+						  <option value="Est4_Cuatro">Barbero 4</option>
+						  <option value="Est5_Cinco">Barbero 5 </option>
+					
+					  </select>
+					</div>
+					  </div>
+							</div>
+							</div>
+					
+                    <!-- servicios -->  
+    						<div class="col-md-12">
+									<div class="form-group">
+			    					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
+	                      <select name="select" id="servicio" class="form-control">
+	                      	<option value="Servicio">Servicios</option>
+	                        <option value="-">-</option>
+	                      </select>
+	                    </div>
+			              </div>
+			    				</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="form-group">
+			              <input id="nombre" name="Nombre" type="text" class="form-control" placeholder="Nombre Completo*">
+			            </div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+			              <input id="telefono" name="telefono" type="text" class="form-control" placeholder="Whatsapp*">
+			            </div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+			    					<div class="input-wrap">
+			            		<div class="icon"><span class="fa fa-calendar"></span></div>
+			            		<input id="fecha" name="Fecha" type="text" class="form-control appointment_date" placeholder="Fecha*" onchange="cambiados()">
+		            		</div>
+			    				</div>
+								</div>
+                            
+                <div class="col-md-12">
+									<div class="form-group">
+			    					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
+	                      <select name="select" id="hora" class="form-control">
+	                      	<option value="">Hora</option>
+	                      </select>
+	                    </div>
+			              </div>
+			    				</div>
+								</div>
+                            
+								<div class="col-md-12">
+									<div class="form-group">
+			              <textarea id="detalles" name="detalles"  cols="30" rows="7" class="form-control" placeholder="Si deseas otro servicio para una persona extra, agenda de nuevo, llega puntual, nuestra tolerancia de espera es de máximo 10 minutos, gracias por tu paciencia, recuerda que nuestras reservaciones son apartados de lugar."></textarea>
+			            </div>
+								</div>
+								<div class="col-md-12">
+								<div class="form-group"> 
+			              <input id="submit" type="submit" value="Agendar " class="btn btn-dark py-3 px-4">
+						</div>
+					</div>
+						<div class="col-md-12">
+								<div class="form-group"> 
+			              <a href="http://clientedigital.com.mx/demo/cancelar" class="btn btn-dark py-3 px-4" style="color:#ec53ac";>¿Deseas cancelar una cita?</a>
+						</div>
+					</div>
+					<div class="col-md-12">
+						 <div class="form-group"> 
+			
+			  <a href="https://api.whatsapp.com/send?phone=528717559082"   target="_blank"  ></a>
+			</div>
+								</div>
+    						</div>
+			  </form>
+			  <script src="js/form.js"></script>
+                
+                    <script type="text/javascript">
+                        var Opc_Est5_Cinco = new Array("-","Corte de cabello", "Corte de Barba", "Experiencia 1","Experiencia 2" , "Experiencia 3", "Experiencia 4" );
+                       
+                        var Opc_Est2_Dos =  new Array("-","Corte de cabello", "Corte de Barba", "Experiencia 1","Experiencia 2" , "Experiencia 3", "Experiencia 4" );
+
+                        var Opc_Personal = new Array("-");
+                        
+                        var Opc_Est3_Tres = new Array("-","Corte de cabello", "Corte de Barba", "Experiencia 1","Experiencia 2" , "Experiencia 3", "Experiencia 4" );
+
+                        var Opc_Est4_Cuatro = new Array("-","Corte de cabello", "Corte de Barba", "Experiencia 1","Experiencia 2" , "Experiencia 3", "Experiencia 4" );
+
+						            var Opc_Est1_Uno = new Array("-","Corte de cabello", "Corte de Barba", "Experiencia 1","Experiencia 2" , "Experiencia 3", "Experiencia 4" );
+                        
+                        function cambia(){
+                            var cosa;
+                            cosa = document.form1.personal[document.form1.personal.selectedIndex].value;
+                            if(cosa!=0){
+                                mis_opts=eval("Opc_" + cosa);
+                                num_Opc=mis_opts.length;
+                                document.form1.servicio.length = num_Opc;
+                                for(i=0;i<num_Opc;i++){
+                                    document.form1.servicio.options[i].value=mis_opts[i];
+                                    document.form1.servicio.options[i].text=mis_opts[i];
+                                }
+                            }else{
+                                document.form1.servicio.length = 1;
+                                document.form1.servicio.options[0].value="-";
+                                document.form1.servicio.options[0].text="-";
+                            }
+                            document.form1.opt.options[0].selected = true;
+                        }
+                        
+                        
+                        var H = new Array("11:00","11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30");
+                         
+                         var H_0 = new Array("11:00","11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30");
+                        
+                        var H_6 = new Array("11:00","11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30");
+                        
+                        function cambiados(){
+                            var fech;
+                            fech = new Date(document.form1.fecha.value);
+                            var dia=fech.getDay();
+                            if(dia===0 || dia===6){
+                                mis_opts=eval("H_" + dia);
+                                //alert(mis_opts[1]);
+                                num_Opc=mis_opts.length;
+                                document.form1.hora.length = num_Opc;
+                                for(i=0;i<num_Opc;i++){
+                                    document.form1.hora.options[i].value=mis_opts[i];
+                                    document.form1.hora.options[i].text=mis_opts[i];
+                                }
+                            }else{
+                                 mis_opts=eval("H");
+                                //alert(mis_opts[1]);
+                                num_Opc=mis_opts.length;
+                                document.form1.hora.length = num_Opc;
+                                for(i=0;i<num_Opc;i++){
+                                    document.form1.hora.options[i].value=mis_opts[i];
+                                    document.form1.hora.options[i].text=mis_opts[i];
+                                }
+                            }
+                        }
+                    </script>
+ 			</div>
+    		</div>
+		</div>
+
+    <footer class="footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget mb-4">
+
+
+
+				
+				<!--Imagen en el footer-->
+				<img src="images/Demo.png" width="70" height="70" alt="logo" style="border-radius: 50px;" />              
+              <p>| Inserte direccion del local |</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
+               <!-- <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>-->
+                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a></li>
+				<li class="ftco-animate"><a href="https://twitter.com/"><span class="fa fa-twitter"></span></a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">| Servicios |</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Corte de cabello</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Corte de barba</a></li>
+				        <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Experiencia 1 </a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Experiencia 2 </a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Experiencia 3 </a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Experiencia 4 </a></li>
+              
+              <!--  <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Ferreteria En General</a></li>
+                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Plomeria</a></li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">| Contacto |</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon fa fa-map-marker"></span><span class="text">Dirección | Inserte la direccion del local</span></li>
+	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">Telefono | 871 000 00 00</span></a></li>
+	              <!--  <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">clientedigital.mx</span></a></li> -->
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">| Horarios |</h2>
+              <div class="opening-hours">
+              	<h4>| Horarios |</h4>
+              	<p class="pl-3">
+              		<span>Horario | Lunes  – Viernes</span> <br>
+              		<span>Horario | Sabado</span> <br>
+					        <span>Horario | Domingo</span>
+              <!--	</p>
+              	<h4>Vacations:</h4>
+              	<p class="pl-3">
+              		<span>All Sunday Days</span>
+              		<span>All Official Holidays</span>
+				  </p>
+				  -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Desarrollada  <i class="fa fa-heart" aria-hidden="true"></i> Por  <a href="https://dswsystem.com.mx" target="_blank">DSW SYSTEM</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="./js/main.js"></script>
+ 
+
+  
+    
+  </body>
+</html>

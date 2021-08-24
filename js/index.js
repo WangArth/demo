@@ -1,0 +1,1 @@
+function nextPage(){window.location.href="./demo.html"}window.onload=function(){setTimeout(nextPage,3e3)};
